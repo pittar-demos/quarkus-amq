@@ -1,6 +1,5 @@
 package ca.pitt.demo.amq;
 
-package org.acme.jms;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;

@@ -60,12 +60,18 @@ components:
           value: quarkus
         - name: AMQ_PASSWORD
           value: quarkus
+      endpoints:
+        - name: broker
+          targetPort: 5672
+          protocol: tcp
+          secure: 'false'
+          exposure: private
 commands:
   - id: 1-package
     exec:
       label: "1. Package the application"
       component: tools
-      workingDir: ${PROJECTS_ROOT}
+      workingDir: ${PROJECTS_ROOT}/quarkus-amq
       commandLine: "mvn package"
       group:
         kind: build
@@ -74,7 +80,7 @@ commands:
     exec:
       label: "2. Start Development mode (Hot reload + debug)"
       component: tools
-      workingDir: ${PROJECTS_ROOT}
+      workingDir: ${PROJECTS_ROOT}/quarkus-amq
       commandLine: "mvn compile quarkus:dev"
       group:
         kind: run
