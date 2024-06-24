@@ -64,8 +64,7 @@ components:
         - name: broker
           targetPort: 5672
           protocol: tcp
-          secure: 'false'
-          exposure: private
+          exposure: internal
 commands:
   - id: 1-package
     exec:
