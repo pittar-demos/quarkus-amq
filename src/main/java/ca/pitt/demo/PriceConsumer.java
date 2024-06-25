@@ -1,4 +1,4 @@
-package ca.pitt.demo.amq;
+package ca.pitt.demo;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

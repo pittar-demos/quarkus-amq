@@ -38,8 +38,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.amqphub.quarkus</groupId>
-            <artifactId>quarkus-qpid-jms</artifactId>
+            <groupId>io.quarkiverse.artemis</groupId>
+            <artifactId>quarkus-artemis-jms</artifactId>
+            <version>3.3.0</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>

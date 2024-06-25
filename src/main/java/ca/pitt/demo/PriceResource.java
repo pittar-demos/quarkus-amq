@@ -1,4 +1,4 @@
-package ca.pitt.demo.amq;
+package ca.pitt.demo;
 
 
 import jakarta.inject.Inject;

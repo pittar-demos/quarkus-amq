@@ -1,4 +1,4 @@
-package ca.pitt.demo.amq;
+package ca.pitt.demo;
 
 import java.util.Random;
 import java.util.concurrent.Executors;
