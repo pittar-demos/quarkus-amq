@@ -78,7 +78,7 @@ commands:
       label: "1. Package the application"
       component: tools
       workingDir: ${PROJECTS_ROOT}/quarkus-amq
-      commandLine: "mvn package"
+      commandLine: "./mvnw package"
       group:
         kind: build
         isDefault: true
@@ -87,7 +87,7 @@ commands:
       label: "2. Start Development mode (Hot reload + debug)"
       component: tools
       workingDir: ${PROJECTS_ROOT}/quarkus-amq
-      commandLine: "mvn compile quarkus:dev"
+      commandLine: "./mvnw compile quarkus:dev"
       group:
         kind: run
         isDefault: true
