@@ -1,6 +1,8 @@
 # quarkus-amq
 
-Open in [OpenShift Dev Spaces](https://devspaces.apps.cluster-vn7mc.dynamic.redhatworkshops.io/dashboard/#https://raw.githubusercontent.com/pittar-demos/quarkus-amq/main/devfile.yaml)
+Open in **OpenShift Dev Spaces**:
+
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-vn7mc.dynamic.redhatworkshops.io/dashboard/#https://raw.githubusercontent.com/pittar-demos/quarkus-amq/main/devfile.yaml)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.  Quarkus is awesome!
 
