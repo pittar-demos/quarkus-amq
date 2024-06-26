@@ -2,7 +2,7 @@
 
 Open in [OpenShift Dev Spaces](https://devspaces.apps.cluster-vn7mc.dynamic.redhatworkshops.io/dashboard/#https://raw.githubusercontent.com/pittar-demos/quarkus-amq/main/devfile.yaml)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project uses Quarkus, the Supersonic Subatomic Java Framework.  Quarkus is awesome!
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
