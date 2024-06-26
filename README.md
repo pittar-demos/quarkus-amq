@@ -6,6 +6,8 @@ Open in **OpenShift Dev Spaces**:
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.  Quarkus is awesome!
 
+Hello Bank of Canada.
+
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
 ## Running the application in dev mode
