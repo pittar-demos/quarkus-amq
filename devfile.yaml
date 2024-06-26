@@ -63,7 +63,7 @@ components:
         - name: broker
           targetPort: 5672
           protocol: tcp
-          exposure: internal
+          exposure: none
         - name: broker-console
           targetPort: 8161
           protocol: https
@@ -72,7 +72,7 @@ components:
         - name: broker-61616
           targetPort: 61616
           protocol: tcp
-          exposure: internal
+          exposure: none
 commands:
   - id: 1-package
     exec:
